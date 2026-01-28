@@ -45,9 +45,9 @@ redundancy, and basic security mechanisms.
 - Ping tests between VLANs
 
 ## 📂 Project Files
-- Packet Tracer file: `packet-tracer/bank_network.pkt`
-- Device configs: `configs/`
-- Screenshots: `screenshots/`
+- Packet Tracer file: `Packet Tracer/Bank Network.pkt`
+- Device configs: `Configs/`
+- Screenshots: `Screenshots/`
 
 ## 🏁 Conclusion
 This project demonstrates practical knowledge of enterprise networking concepts
