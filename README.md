@@ -42,6 +42,8 @@ redundancy, and basic security mechanisms.
 - `show vlan brief`
 - `show etherchannel summary`
 - `show ip dhcp binding`
+- `show interfaces trunk`
+- `show ip route`
 - Ping tests between VLANs
 
 ## 📂 Project Files
