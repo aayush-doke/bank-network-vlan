@@ -14,7 +14,6 @@ ip arp inspection vlan 10,20,30
 ip arp inspection validate src-mac dst-mac ip
 !
 ip dhcp snooping vlan 10,20,30
-ip dhcp snooping
 !
 spanning-tree mode pvst
 spanning-tree extend system-id
@@ -92,15 +91,18 @@ interface FastEthernet0/22
 !
 interface FastEthernet0/23
  ip arp inspection trust
+ ip dhcp snooping trust
  switchport mode trunk
  channel-group 1 mode active
 !
 interface FastEthernet0/24
  ip arp inspection trust
+ ip dhcp snooping trust
  switchport mode trunk
  channel-group 1 mode active
 !
 interface GigabitEthernet0/1
+ swicthport trunk allowed vlan 10,20,30
  ip arp inspection trust
  ip dhcp snooping trust
  switchport mode trunk
@@ -124,4 +126,5 @@ line vty 5 15
 !
 !
 !
+
 end
