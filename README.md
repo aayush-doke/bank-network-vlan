@@ -46,6 +46,7 @@ This network implements multiple Layer-2 and Layer-3 security mechanisms to prot
 ### Layer-2 Security
 - **Port Security** limits the number of MAC addresses per access port to prevent unauthorized devices.
 - **DHCP Snooping** prevents rogue DHCP servers by allowing DHCP responses only from trusted ports.
+- Note on DHCP Snooping: DHCP Snooping was implemented and tested. Due to simulation constraints in Packet Tracer, it was disabled to allow full network functionality. Router-facing trunk ports must be configured as trusted in real deployments.
 - **Dynamic ARP Inspection (DAI)** validates ARP packets using the DHCP snooping binding table to prevent ARP spoofing attacks.
 
 ### Layer-3 Security
