@@ -24,6 +24,7 @@ redundancy, and basic security mechanisms.
 - Multiple PCs across different VLANs
 - Trunk links with EtherChannel between switches
 - Router subinterfaces for inter-VLAN routing
+![Bank Network Topology](Screenshots/Network-Topology.png)
 
 ## 🔐 VLAN Structure
 | VLAN | Name  | Subnet |
